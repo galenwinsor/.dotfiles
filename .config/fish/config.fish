@@ -1,8 +1,10 @@
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 zoxide init fish | source
 
 starship init fish | source
 
-fish_add_path /opt/homebrew/bin
+thefuck --alias | source
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
