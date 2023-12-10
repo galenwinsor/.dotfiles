@@ -1,0 +1,50 @@
+{
+  // Editor
+  "editor.formatOnSave": true,
+  "editor.inlayHints.enabled": "on",
+  "emmet.excludeLanguages": [
+    "markdown",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorBlinking": "phase",
+  "vim.cursorStylePerMode.normal": "block-outline",
+  "vim.cursorStylePerMode.visual": "block-outline",
+  "vim.cursorStylePerMode.visualblock": "block-outline",
+  "vim.cursorStylePerMode.visualline": "block-outline",
+  "vim.cursorStylePerMode.replace": "underline",
+  // Appearance
+  "explorer.autoReveal": true,
+  "window.titleBarStyle": "custom",
+  "editor.lineNumbers": "relative",
+  "workbench.colorTheme": "poimandres",
+  "editor.fontSize": 16,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.minimap.scale": 2,
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+  // Languages
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "svelte.enable-ts-plugin": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
