@@ -89,3 +89,12 @@ alt - t : yabai -m window --toggle float --grid 4:4:1:1:2:2
 
 # toggle sticky(+float), topmost, picture-in-picture
 # alt - p : yabai -m window --toggle sticky --toggle topmost --toggle pip
+
+hyper - s : open /Applications/Slack.app
+hyper - f : open /Applications/Firefox.app
+hyper - d : open /Applications/Obsidian.app
+hyper - t : open /Applications/iTerm.app
+hyper - v : open /Applications/VSCodium.app
+hyper - c : open -a "Calendar"
+hyper - r : open -a "Reminders"
+hyper + shift - f : open -a "Finder"
