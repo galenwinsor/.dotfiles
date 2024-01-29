@@ -21,7 +21,6 @@
   "window.titleBarStyle": "custom",
   "editor.lineNumbers": "relative",
   "workbench.colorTheme": "poimandres",
-  "editor.fontSize": 16,
   "workbench.iconTheme": "material-icon-theme",
   "editor.minimap.scale": 2,
   "workbench.activityBar.location": "hidden",
@@ -49,5 +48,6 @@
   },
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
-  }
+  },
+  "editor.fontSize": 14
 }

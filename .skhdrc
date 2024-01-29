@@ -97,4 +97,4 @@ hyper - t : open /Applications/iTerm.app
 hyper - v : open /Applications/VSCodium.app
 hyper - c : open -a "Calendar"
 hyper - r : open -a "Reminders"
-hyper + shift - f : open -a "Finder"
+hyper - g : open /Applications/Spotify.app
