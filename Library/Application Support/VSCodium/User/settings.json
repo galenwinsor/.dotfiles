@@ -16,16 +16,16 @@
   "vim.cursorStylePerMode.visualblock": "block-outline",
   "vim.cursorStylePerMode.visualline": "block-outline",
   "vim.cursorStylePerMode.replace": "underline",
+  "vim.useSystemClipboard": true,
   // Appearance
   "explorer.autoReveal": true,
   "window.titleBarStyle": "custom",
   "editor.lineNumbers": "relative",
-  "workbench.colorTheme": "poimandres",
+  "workbench.colorTheme": "poimandres-storm",
   "editor.fontSize": 16,
   "workbench.iconTheme": "material-icon-theme",
   "editor.minimap.scale": 2,
   "workbench.activityBar.location": "hidden",
-  "workbench.statusBar.visible": false,
   // Languages
   "typescript.updateImportsOnFileMove.enabled": "always",
   "svelte.enable-ts-plugin": true,
@@ -49,5 +49,12 @@
   },
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.inheritEnv": false,
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false
   }
 }
