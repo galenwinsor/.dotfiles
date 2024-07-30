@@ -54,7 +54,5 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "terminal.integrated.inheritEnv": false,
-  "[python]": {
-    "diffEditor.ignoreTrimWhitespace": false
-  }
+  "editor.fontSize": 14
 }
