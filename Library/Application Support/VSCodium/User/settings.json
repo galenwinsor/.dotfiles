@@ -17,7 +17,6 @@
   "vim.cursorStylePerMode.visualline": "block-outline",
   "vim.cursorStylePerMode.replace": "underline",
   "vim.useSystemClipboard": true,
-  // "workbench.editor.showTabs": "single",
   // Appearance
   "explorer.autoReveal": true,
   "window.titleBarStyle": "custom",
